@@ -9,6 +9,7 @@ app.get('/',(req,res)=>{
 app.get('/get-users',(req,res)=>{
     res.send("hello this is from frontend");
 })
+
 app.listen(7005, ()=>{
     console.log("server running at port 7005")
 });
